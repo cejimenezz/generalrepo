@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/logoPosadaElAgua.png" alt="Logo" width="130" height="70"
+                    class="d-inline-block align-text-top">
+            </a>
+            <a href="./index.html" class="btn btn-primary"> Home</a>
+            <a href="./info.html" class="btn btn-primary"> Información </a>
+            <a href="./contact.html" class="btn btn-primary"> Contacto </a>
+        </nav>
+    </header>
+    <main>
+        <div class="imgformulario">
+            <img src="./img/parejaSentados.jpg" alt="pareja sentados" width="500" height="350">
+        </div>
+        <div class="formulario">
+            <form action="" method="post" />
+            <h2>Introduce tus datos personales</h2>
+            <p>Nombre: <input type="text" name="nombre" size="10" /></p>
+            <p></p>Apellidos: <input type="text" name="apellidos" size="30" /></p>
+            <p></p>correo electrónico: <input type="text" name="correo" size="30" /></p>
+            <table class="tablaformulario">
+                <tr>
+                    <td>
+                        <h4>Selecciona el numero de noches</h4>
+                        <input type="radio" name="noches" value="1 noches" />
+                        1 noche<br>
+                        <input type="radio" name="noches" value="2 noches" />
+                        2 noches<br>
+                        <input type="radio" name="noches" value="3 noches" />
+                        3 noches<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>¿Sobre cuales actividades te gustaría recibir información?</h4>
+                        <input type="checkbox" name="piragua" /> Piraguas y paddle surf<br />
+                        <input type="checkbox" name="paseoCaballo" /> Paseos a caballo<br />
+                        <input type="checkbox" name="golf" /> Campo de Golf Navaluenga<br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h4>Selecciona tu Comunidad Autónoma</h4>
+                        <select name="web">
+                            <option>Comunidad Autónoma:</option>
+                            <option value="andalucia">Andalucía</option>
+                            <option value="aragon">Aragon</option>
+                            <option value="islasBaleares">Islas Baleares</option>
+                            <option value="canarias">Canarias</option>
+                            <option value="cantabria">Cantabria</option>
+                            <option value="castillaLaMancha">Castilla-La Mancha</option>
+                            <option value="castillaYleon">Castilla y León</option>
+                            <option value="catalunia">Cataluña</option>
+                            <option value="comunidadValenciana">Comunidad Valenciana</option>
+                            <option value="navarra">Comunidad Foral de Navarra</option>
+                            <option value="extremadura">Extremadura</option>
+                            <option value="galicia">Galicia</option>
+                            <option value="paisVasco">País Vasco</option>
+                            <option value="asturias">Asturias</option>
+                            <option value="murcia">Murcia</option>
+                            <option value="laRioja">La Rioja</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <p>Comentarios o solicitudes <br />
+                <textarea name="comentarios" rows="10" cols="40"> </textarea>
+            <p><input type="submit" value="Enviar solicitud">
+                <input type="reset" value="Limpiar">
+            </p>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <img class="logofooter" src="./img/logoPosadaElAgua.png" alt="Logo">
+        <div class="enlacesfooter">
+
+            <a href="./info.html"> Información </a><br>
+
+            <a href="./contact.html"> Contacto </a><br>
+
+            <a href="#">Aviso legal</a>
+
+            <a href="#">Política de privacidad</a>
+
+            <a href="#">Términos y condiciones</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
